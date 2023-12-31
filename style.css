@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#box-0{
+    background-color: grey;
+    text-align: center;
+    display: grid;
+    height: 100px;
+    font-weight: bolder;
+    font-size: xx-large;
+    align-items: center;
+}
+.container{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 20% 80%;
+
+}
+#box-1{
+    display: grid;
+    background-image: rgba(0, 0, 0, 0.961);
+    border: 2px solid   black;
+    color: black;
+    text-align: center;
+    align-items: center;
+    /* font-size: x-large; */
+    
+}
+#box-2{
+    background-color: red;
+    border: 1px solid  red;
+    height: 65px;
+    display: grid;
+    align-items: center;
+    color:white;
+    text-align: center;
+    font-size: x-large;
+
+}
+#box-3{
+    border:2px solid  blue;
+    background-color: blue;
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end:6;
+    height: 300px;
+    font-size: x-large;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
+#box-4{
+    background-color: rgba(13, 1, 34, 0.861);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    align-items: center;
+    height:400px;
+    width: 30%;
+    font-size: x-large;
+    text-align: center;
+    color:white;
+
+}
+.Hello{
+    display: flex;
+    justify-content: space-between;
+}
+#box-70{
+    background-color: rgba(95, 197, 185, 0.861);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    align-items: center;
+    height:200px;
+    width: 20em;
+    font-size: x-large;
+    text-align: center;
+    color:white;
+}
+#box-80{
+    background-color: rgba(87, 217, 12, 0.861);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    align-items: center;
+    height:200px;
+    width: 20em;
+    font-size: x-large;
+    text-align: center;
+    color:white;
+}
+#box-5{
+    border:2px solid gold;
+    background-color: gold;
+    grid-column-start:5;
+    grid-column-end: 3;
+    color: black;
+    
+}
+#box-10{
+    border:2px solid   rgb(246, 238, 15);
+    background-color: rgb(246, 238, 15);
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end:6;
+    height: 100px;
+    font-size: xx-large;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+}
